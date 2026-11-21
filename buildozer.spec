@@ -10,7 +10,9 @@ requirements = python3,kivy==2.3.0,requests,urllib3,idna,charset-normalizer,cert
 orientation = portrait
 fullscreen = 0
 android.permissions = RECORD_AUDIO,INTERNET,READ_EXTERNAL_STORAGE,WRITE_EXTERNAL_STORAGE,READ_MEDIA_AUDIO,READ_MEDIA_VIDEO
-android.api = 33
+android.ndk = 25b
+android.ndk_api = 24
+p4a.branch = v2024.01.21
 android.minapi = 24
 android.archs = arm64-v8a
 android.accept_sdk_license = True
